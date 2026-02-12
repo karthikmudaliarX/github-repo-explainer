@@ -1,5 +1,6 @@
 /* styles.css */
 .repo-explainer-container {
+  margin-top: 16px;
   margin-bottom: 16px;
   background-color: var(--bgColor-muted, #f6f8fa);
   border: 1px solid var(--borderColor-default, #d0d7de);
