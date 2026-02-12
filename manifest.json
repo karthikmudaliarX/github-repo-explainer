@@ -3,6 +3,12 @@
   "name": "GitHub Repo Explainer",
   "version": "1.0",
   "description": "Explains what a GitHub repository does in simple terms using AI.",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": [
     "activeTab",
     "scripting",
@@ -31,7 +37,13 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "GitHub Repo Explainer Settings"
+    "default_title": "GitHub Repo Explainer Settings",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
   },
   "options_page": "options.html"
 }
